@@ -1,0 +1,11 @@
+4)
+  Imagens escuras: os pontos intermediários devem ter valor de y baixo, como P2(10, 10), P3(200, 50);
+  Imagens claras: os pontos intermediários devem ter valor de y alto, como P2(10, 200), P3(200, 250); 
+  Imagens com main contraste: os pontos intermediários devem ter valor de x baixo, como P2(10, 10), P3(50, 250); 
+  Imagens com menos contraste: os pontos intermediários devem ter valor de x alto, como P2(190, 10), P3(250, 250).
+
+  obs: considere pontos intermediários todos pontos entre os pontos (0, 0) e (255, 255).
+
+  Dados perdidos:
+    considere P1(x1, y1), P2(x2, y2)
+    se x1 <= x2 ou y1 <= y2, seria não seria possível restaurar a imagem original, pois dessa forma teríamos pontos na imagem que possuem a mesma cor, impossibilitando a restauração.

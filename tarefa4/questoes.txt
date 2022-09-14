@@ -1,1 +1,0 @@
-y posterior nao pode ser < que um y anterior, pois alguns pontos na imagem terão a mesma cor, sendo impossivel de recuperar
