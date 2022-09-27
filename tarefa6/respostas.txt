@@ -1,0 +1,11 @@
+2. A partir da imagem original, aplique ruído aditivo gaussiano com média zero e variância 64. Dica: utilize a função imnoise. Compare os histogramas (imhist) da imagem original e da imagem com ruído adicionado, qual a diferença?
+
+  A imagem sem o ruído ficou mais saturada em branco, enquanto a imagem com o ruído parece equilibrar mais os pontos em cinza, apesar de ainda estar com picos de pixels na mesma cor muito concentrados.
+
+
+4. Repita o passo 2 um número arbitrário de vezes e reserve as imagens geradas. Agora crie uma função que calcule uma imagem média a partir delas. Quantas imagens são necessárias para que o ruído adicionado seja completamente eliminado (DICA: o valor pode ser estimado numericamente)? Calcule a média entre 8, 16 e 64 imagens. Qual a diferença? Calcule o histograma dos resultados e utilize a função criada no passo 3 para estimar a diferença para a imagem original.
+
+  São necessárias, aparentemente, 256 imagens;
+  Diff Imagem8: 1.1663
+  Diff Imagem16: 1.1350
+  Diff Imagem64: 1.1177
